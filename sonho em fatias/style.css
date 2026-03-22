@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+main{
+    background-image: url("unnamed.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    gap: 4rem;
+}
+nav {
+    background-color:transparent;
+    text-align: center;
+    color: brown;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.topo {
+    background-color: wheat;
+    border: 2rem solid wheat;
+    border-radius: 80px;
+    border-width: 2px;
+    width: 70%;
+    margin: 0 auto;
+}
+.sub-topo{
+        color: brown;
+        background-color: coral;
+        border: 2rem solid coral;
+        padding: 1rem;
+        font-size: 1.5rem;
+        border-radius: 60px;
+        width: 50%;
+        margin: 0 auto
+}
+.titulo{
+    color:wheat;
+    font-size: 2.5rem;
+}
+.bolo1 {
+        color: wheat;
+        font-size: 1.5rem;
+        background-color: brown;
+        padding: 1rem;
+        border-radius: 60px;
+        border: 2rem solid brown;
+        width: 35%;
+        margin: 0 auto;
+        border-collapse: collapse;
+}
+select{
+    padding:0.5rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color:wheat;
+    cursor: pointer;
+}
+
+.bolo2{
+        color: wheat;
+        font-size: 1.5rem;
+        background-color: brown;
+        padding: 1rem;
+        border-radius: 60px;
+        border: 2rem solid brown;
+        width: 35%;
+        margin: 0 auto;
+        border-collapse: collapse;
+}
+img{
+    border-radius: 15px;
+}
+.bolo3{
+    color: wheat;
+        font-size: 1.5rem;
+        background-color: brown;
+        padding: 1rem;
+        border-radius: 60px;
+        border: 2rem solid brown;
+        width: 35%;
+        margin: 0 auto;
+        border-collapse: collapse;
+}
+.final{
+    color: wheat;
+    font-size: 2rem;
+}
+.personalizados{
+            font-size: 1.5rem;
+            color: wheat;
+            background-color: coral;
+            border: 2rem solid coral;
+            border-radius: 30px;
+            width: 30%;
+            margin: 0 auto;
+}
+button{
+    padding: 0.5rem;
+    border-radius: 15px;
+    background-color: wheat;
+    cursor: pointer;
+    outline: none;
+    border: 0.2rem solid wheat;
+    width: 34%;
+    gap: 20px;
+}
+input[type="radio"] {
+    cursor: pointer;
+    accent-color:brown;
+}
+footer{
+    background-color: wheat;
+    border-color: solid transparent;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
