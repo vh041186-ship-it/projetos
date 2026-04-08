@@ -49,12 +49,13 @@ a{
     bottom: 20rem;
 }
 .Nossos-planos{
+    width: 100%;
     display: flex;
     flex-direction: row; 
+    flex-wrap: wrap;
     background-color: black;
     justify-content: space-around;
-    justify-content: center;
-    gap: 60px;
+    gap: 15px; 
 }
 .pn{
     text-align: center;
@@ -120,6 +121,7 @@ article{
 .card-ap{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 40px;
 
 }
@@ -141,17 +143,17 @@ article{
     font-size: 1.5rem;
     
 }
-
 .Musculação{
-    max-width: 1000px;
-    width: 80%;
-    height: auto;
+    max-width: 950px;
+    width: 100%;
+    height: auto; 
 
 }
 .Dance{
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 40px;
 }
 .dance_area{
@@ -176,7 +178,7 @@ article{
     margin-top: 8rem;
 }
 .fitdc{
-    max-width: 1000px;
+    max-width: 950px;
     width: 100%;
     height: auto;
 }
@@ -230,11 +232,10 @@ article{
 }
 table{
     text-align: center;
-    width: 45rem;
+    width: 40rem;
     margin: 0 auto;
     border: 3px solid #ff4500;
     border-collapse: collapse;
-    background-color;
 }
 .dias-horarios{
     background-color: #ff4500;
